@@ -2,6 +2,7 @@ package br.unb.unbomber;
 
 import br.unb.bomberman.ui.screens.Assets;
 import br.unb.bomberman.ui.screens.MainMenuScreen;
+import br.unb.bomberman.ui.screens.MainMenuScreen2;
 
 import com.badlogic.gdx.Game;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
@@ -23,7 +24,7 @@ public class GDXGame extends Game {
 		Assets.load();                
         
 		//set main menu
-		this.setScreen(new MainMenuScreen(this));
+		this.setScreen(new MainMenuScreen2(this));
 	}
 	
 	/**

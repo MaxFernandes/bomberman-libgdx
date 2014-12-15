@@ -32,7 +32,7 @@ entities: [
 				permittedSimultaneousBombs:2
 			},{
 				class: br.unb.unbomber.component.Movable,
-				speed:3
+				speed:1
 			},{
 				class: br.unb.unbomber.component.ExplosionBarrier,
 				type: PASS_THROUGH
