@@ -22,7 +22,7 @@ public class DrawScreen implements Screen{
     	this.game = game;
 
         camera = new OrthographicCamera();
-        camera.setToOrtho(false, 800, 480);
+        camera.setToOrtho(true, 800, 480);
         
         //The background
         background = new Texture(Gdx.files.local("draw.png"));

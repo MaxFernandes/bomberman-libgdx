@@ -67,7 +67,7 @@ public class GameScreen extends ScreenAdapter {
 
 	private void loadGame() {
 		
-		guiCam = new OrthographicCamera(320, 480);
+		guiCam = new OrthographicCamera( 320, 480);
 		guiCam.position.set(320 / 2, 480 / 2, 0);
 		touchPoint = new Vector3();
 		
